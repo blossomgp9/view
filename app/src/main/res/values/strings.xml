@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">view</string>
+    <string name="account">會員帳號</string>
+    <string name="cellphone">請輸入手機號碼</string>
+    <string name="country">國 籍 別</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string-array name="aray">
+        <item>台灣</item>
+        <item>台灣中國</item>
+    </string-array>
+</resources>
