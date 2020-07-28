@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".RecycleviewActivity">
+    tools:context=".RecycleviewActivity"
+    android:orientation="vertical">
+    <Button
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#4F4F4F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/newitem"/>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
